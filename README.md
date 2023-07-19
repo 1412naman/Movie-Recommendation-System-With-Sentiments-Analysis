@@ -5,6 +5,7 @@ The details of the movies(title, genre, runtime, rating, poster, etc) are fetche
 
 Check out the
 live demo:
+
 Link to youtube demo:
 # FlixiFy
 Welcome to Flixify, your ultimate movie companion! Flixify is an intelligent movie recommendation system that utilizes sentiment analysis and TMDB ratings to offer personalized film suggestions tailored to your preferences. Whether you're seeking heartwarming romances, adrenaline-pumping adventures, or gripping thrillers, Flixify has you covered.
