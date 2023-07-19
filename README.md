@@ -2,7 +2,9 @@
 
 Discover personalized movie suggestions using sentiment analysis! Our user-friendly system recommends films aligned with your emotions and preferences. 🎬🍿
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using beautifulsoup4 and performed sentiment analysis on those reviews.
-Check out the live demo:
+
+Check out the
+live demo:
 Link to youtube demo:
 # FlixiFy
 Welcome to Flixify, your ultimate movie companion! Flixify is an intelligent movie recommendation system that utilizes sentiment analysis and TMDB ratings to offer personalized film suggestions tailored to your preferences. Whether you're seeking heartwarming romances, adrenaline-pumping adventures, or gripping thrillers, Flixify has you covered.
