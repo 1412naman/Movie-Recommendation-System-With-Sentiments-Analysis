@@ -12,7 +12,7 @@ $(function() {
   source.addEventListener('input', inputHandler);
 
   $('.movie-button').on('click',function(){
-    var my_api_key = '9aa119e1665b53fac6c324512f48325e';
+    var my_api_key = 'API Key';
     var title = $('.movie').val();
     if (title=="") {
       $('.results').css('display','none');
@@ -26,7 +26,7 @@ $(function() {
 
 // will be invoked when clicking on the recommended movies
 function recommendcard(e){
-  var my_api_key = '9aa119e1665b53fac6c324512f48325e';
+  var my_api_key = 'API KEY';
   var title = e.getAttribute('title'); 
   load_details(my_api_key,title);
 }
@@ -59,7 +59,7 @@ function load_details(my_api_key,title){
   });
 }
 
-// passing the movie name to get the similar movies from python's flask
+// passing the movie name to get similar movies from Python's flask
 function movie_recs(movie_title,movie_id,my_api_key){
   $.ajax({
     type:'POST',
